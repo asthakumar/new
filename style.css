@@ -1,0 +1,25 @@
+body
+{
+    background-image:url(...abc.webp);
+    text-align: center;
+
+}
+h3
+{
+    font-size: 30px;
+}
+.btn-success:hover
+{
+    background-color: aqua;
+}
+canvas
+{
+    animation-name:example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 10px 10px 38px rgba(130, 8, 245, 0.609);}
+    to{box-shadow: 10px 10px 39px hotpink;}
+}
